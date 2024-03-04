@@ -4,7 +4,7 @@ const {generateToken , verifyToken} = require("../utils/jwt")
 const createCode = async(req,res) =>{
     const body = req.body
     try {
-        
+        console.log(body);
     } catch (error) {
         
     }
@@ -12,4 +12,4 @@ const createCode = async(req,res) =>{
 
 
 
-module.exports = {}
+module.exports = {createCode}

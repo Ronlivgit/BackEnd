@@ -5,6 +5,7 @@ const {Discount} = require("../models/discount.model")
 
 
 
+router.post('/create' , logUser)
 
 
 module.exports = router
