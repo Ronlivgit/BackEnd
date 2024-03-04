@@ -6,7 +6,7 @@ const createCode = async(req,res) =>{
     try {
         console.log(body);
     } catch (error) {
-        
+        console.error(error);
     }
 }
 

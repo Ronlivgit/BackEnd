@@ -10,6 +10,7 @@ const discountSchema = new mongoose.Schema({
     forProducts : { type : Array },
 })
 
+
 const Discount = mongoose.model("Discounts" , discountSchema)
 
 module.exports = { Discount }
